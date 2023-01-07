@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Partypooper|Happy mod|choice Hub ", "DarkTheme")
+
+---Tabs
+
+local Tab1 = Window:NewTab("Section Hub")
+local Tab1Section = Tab1:NewSection("Section Hub")
+local Tab2 = Window:NewTab("Credit")
+local Tab2Section = Tab2:NewSection("Credit For My Team")
+
+---Buttons
+
+Tab1Section:NewButton("Partypooper Hub", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DrFredfnafid/Partypooper/main/Partypooper%20Hub"))()
+end)
+
+Tab1Section:NewButton("Toni Hub", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DrFredfnafid/Toni-Hub-/main/Toni%20Hub"))()
+end)
+
+Tab2Section:NewButton("Dr Fred Fnaf Id | For Credit My Team Channel", "Credit", function()
+    https://m.youtube.com/channel/UC-WFtqy6NVZUTSBbytY_FfA
+end)
+
+Tab2Section:NewButton("Happy Mod | Make Ui", "Credit", function()
+    https://m.youtube.com/channel/UC6YFR6n-LvFiBIBby9zP2mA
+end)
